@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace StrategyPatterns
+namespace DesignMode.StrategyPatterns
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Duck d = new MallardDuck();
+            d.PerormFly();
+            d.PerormQuack();
+            Console.ReadLine();
+
+            Console.ReadLine();
+
+
         }
     }
 }
