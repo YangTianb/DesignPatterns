@@ -9,6 +9,7 @@ namespace DesignMode.StrategyPatterns
             Duck d = new MallardDuck();
             d.PerormFly();
             d.PerormQuack();
+            
             Console.ReadLine();
 
             Console.ReadLine();

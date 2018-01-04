@@ -13,5 +13,9 @@ namespace Decorator
         {
             return 0.4;
         }
+        public override string GetDescription()
+        {
+            return "Dark Roast Coffee";
+        }
     }
 }

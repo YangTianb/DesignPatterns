@@ -9,6 +9,7 @@ namespace Decorator
     /// </summary>
     public abstract class Condiment : Beverage
     {
-        public abstract new string GetDescription();
+        public Condiment()
+        { }
     }
 }
